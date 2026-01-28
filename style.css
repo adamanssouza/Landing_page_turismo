@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #b6c5db;
+    color: #043b3d;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+#pontos-turisticos>img {
+    width: 100%;
+    /* Ocupa toda a largura do main */
+    max-height: 300px;
+    /* Limita a altura para não ficar gigantesca */
+    object-fit: cover;
+    /* Mantém proporção e corta o que ultrapassar */
+    border-radius: 10px;
+    /* Opcional, deixa as bordas levemente arredondadas */
+    margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: lowercase;
+    margin-bottom: 10px;
+    color: #060a0e;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+main {
+    background: #ceb3b5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
